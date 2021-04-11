@@ -16,10 +16,10 @@ stemmer = factory.create_stemmer()
 from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory
 factory = StopWordRemoverFactory()
 stopword = factory.create_stop_word_remover()
-access_token="1375292174279962625-SWmfVFnq8yRNoOqZcW6hsYlqa7UR6N"
-access_token_secret="qanrWREjs7MxRE84i6YzhqLqjex7spaNlX7TsAQjFfgyO"
-consumer_key="MQX4CafGNJIYnPC0ekE6xCEux"
-consumer_secret="zqLqMPmqVPw8Lxqgj3oRchEKk3yU9qC9Hk9h1YkjbG0gmP6HP8"
+access_token=""
+access_token_secret=""
+consumer_key=""
+consumer_secret=""
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth,wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
